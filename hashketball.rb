@@ -237,7 +237,7 @@ def long_name_steals_a_ton?
     end
   end
 
-max_steals = longest.values.max
-long[long.key(max_steals)] == max_steals
+max_steals = long.values.max
+long[longest.key(max_steals)] == max_steals
 
 end
